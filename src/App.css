@@ -45,13 +45,6 @@
   display: flex;
 }
 
-.cocktail-table {
-  margin-right: .25rem;
-  width: 50%;
-  max-height: 50vh;
-  overflow: auto;
-}
-
 .form-container {
   margin-top: 3rem;
 }

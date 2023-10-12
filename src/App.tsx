@@ -1,6 +1,7 @@
 import {useEffect, useState} from 'react'
 import { Form, Field } from 'react-final-form'
 import Lottie from 'react-lottie-player'
+import styles from './app.module.css'
 import './App.css'
 import {createClient} from '@supabase/supabase-js'
 import {Database} from "./types/supabase.ts";
@@ -71,7 +72,7 @@ function App() {
       />}
       <div className={isLoading ? 'hidden' : ''}>
         <div className="container">
-          <div className="cocktail-table">
+          <div className={styles.cocktailTable}>
             <table>
               <thead>
               <tr>
@@ -89,7 +90,7 @@ function App() {
               </tbody>
             </table>
           </div>
-          <div className="cocktail-table">
+          <div className={styles.cocktailTable}>
             <table>
               <thead>
               <tr>
